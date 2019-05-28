@@ -28,6 +28,7 @@ namespace AndroidInterface
             customerInfo.Version = new InArgument<string>("V3.0");
             customerInfo.UserId = new InArgument<int>(9);
             customerInfo.FPId = new InArgument<int>(1);
+            customerInfo.ServiceKey = new InArgument<string>("1234");
             WorkflowInvoker.Invoke<string>(customerInfo);
         }
     }
