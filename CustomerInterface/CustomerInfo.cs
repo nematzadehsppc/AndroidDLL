@@ -70,7 +70,7 @@ namespace CustomerInterface
             serviceKey = ServiceKey.Get(context);
 
             customerIdList = getCustomerId();
-            if (customerIdList.Count != 0)
+            if (customerIdList != null && customerIdList.Count != 0)
             {
                 for (int i = 0; i < customerIdList.Count; i++)
                 {

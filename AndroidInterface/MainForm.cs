@@ -24,7 +24,7 @@ namespace AndroidInterface
 
             customerInfo.IP = new InArgument<string>("130.185.76.7");
             customerInfo.Port = new InArgument<int>(9020);
-            customerInfo.Database = new InArgument<string>("TEST");
+            customerInfo.Database = new InArgument<string>("TESTANDRIOD");
             customerInfo.Version = new InArgument<string>("V3.0");
             customerInfo.UserId = new InArgument<int>(9);
             customerInfo.FPId = new InArgument<int>(1);
